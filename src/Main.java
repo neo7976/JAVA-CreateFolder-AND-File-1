@@ -6,12 +6,12 @@ public class Main {
 
     static StringBuilder sb = new StringBuilder();
 
-    public static final String WAY = "E:/IT/Java/0. Обучение Java/1. Нетология/Java-разработчик с нуля/";
+    public static final String WAY = "E:/IT/Java/0. Обучение Java/1. Нетология/Java-разработчик с нуля" + "/";
     public static final String PATHNAME = "5465555465465" + "/";
 
-    public static final String PARHNAME_STANDART1 = "/Homework";
-    public static final String PARHNAME_STANDART2 = "/Video";
-    public static final String PARHNAME_STANDART3 = "/Тест";
+    public static final String PARHNAME_STANDART1 = "/" + "Homework";
+    public static final String PARHNAME_STANDART2 = "/" + "Video";
+    public static final String PARHNAME_STANDART3 = "/" +"Тест";
 
     public static void main(String[] args) {
         File games = new File(WAY + PATHNAME);
